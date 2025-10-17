@@ -1,4 +1,4 @@
-/* ====== ESTILOS GERAIS ====== */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 
-/* ====== CABEÇALHO ====== */
+
 div:first-of-type {
   background-color: #bde0ef;
   text-align: center;
@@ -34,14 +34,12 @@ div:first-of-type a:hover {
   text-decoration: underline;
 }
 
-/* ====== BANNER ====== */
 div:nth-of-type(2) img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* ====== SEÇÃO SOBRE ====== */
 #sobre {
   text-align: center;
   padding: 40px 20px;
@@ -63,7 +61,6 @@ div:nth-of-type(2) img {
   margin: 20px 0;
 }
 
-/* ====== SEÇÃO SERVIÇOS ====== */
 #servicos {
   background-color: #0077b6;
   color: white;
@@ -92,12 +89,12 @@ div:nth-of-type(2) img {
   margin: 5px 0;
 }
 
-/* 🔹 Apenas o strong dentro da seção de serviços ficará amarelo */
+
 #servicos strong {
   color: yellow;
 }
 
-/* ====== SEÇÃO CORRETORES ====== */
+
 #corretores {
   text-align: center;
   padding: 40px 20px;
@@ -143,7 +140,6 @@ div:nth-of-type(2) img {
   background-color: #90e0ef;
 }
 
-/* ====== RODAPÉ ====== */
 footer {
   background-color: #023e8a;
   color: white;
