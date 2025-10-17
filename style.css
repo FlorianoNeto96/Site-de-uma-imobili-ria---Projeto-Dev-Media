@@ -1,0 +1,153 @@
+/* ====== ESTILOS GERAIS ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ====== CABEÇALHO ====== */
+div:first-of-type {
+  background-color: #bde0ef;
+  text-align: center;
+  padding: 20px 0;
+}
+
+div:first-of-type img {
+  width: 100px;
+}
+
+div:first-of-type p {
+  margin: 10px 0 0;
+}
+
+div:first-of-type a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+div:first-of-type a:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
+
+/* ====== BANNER ====== */
+div:nth-of-type(2) img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ====== SEÇÃO SOBRE ====== */
+#sobre {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#sobre h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+#sobre h2 {
+  color: #0077b6;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#sobre img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+/* ====== SEÇÃO SERVIÇOS ====== */
+#servicos {
+  background-color: #0077b6;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#servicos h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#servicos p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+#servicos ul {
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#servicos li {
+  margin: 5px 0;
+}
+
+/* 🔹 Apenas o strong dentro da seção de serviços ficará amarelo */
+#servicos strong {
+  color: yellow;
+}
+
+/* ====== SEÇÃO CORRETORES ====== */
+#corretores {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#corretores img {
+  width: 400px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* ====== SEÇÃO CONTATO ====== */
+#contato {
+  background-color: #0077b6;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contato iframe {
+  border-radius: 8px;
+  max-width: 90%;
+}
+
+#contato p {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#contato a {
+  background-color: #fff;
+  color: #0077b6;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#contato a:hover {
+  background-color: #90e0ef;
+}
+
+/* ====== RODAPÉ ====== */
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
